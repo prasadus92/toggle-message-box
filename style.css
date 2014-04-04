@@ -1,0 +1,137 @@
+/**Author: Prasad U S
+Description: Style for message box
+License: Open Source
+**/
+.message-box {
+    bottom:2px;
+    position: fixed;
+    right:10px;
+    width:360px;
+}
+.message-box-title {
+    width:222px;
+    float:right;
+    z-index:1;
+    overflow:hidden;
+    cursor:pointer;
+    background-color:#2fc0fa;
+    -webkit-border-radius:3px 3px 0 0;
+    -moz-border-radius:3px 3px 0 0;
+    -ms-border-radius:3px 3px 0 0;
+    -o-border-radius:3px 3px 0 0;
+    border-radius:3px 3px 0 0;
+
+    -webkit-transition:all 0.4s ease 0s;
+    -moz-transition:all 0.4s ease 0s;
+    -ms-transition:all 0.4s ease 0s;
+    -o-transition:all 0.4s ease 0s;
+    transition:all 0.4s ease 0s;
+}
+.message-box-title > span {
+    float:left;
+    width:45px;
+    text-align:center;
+    margin-right:10px;
+    background-color:#32a48e;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius:3px;
+}
+
+.message-box-title span i {
+    color:#FFFFFF;
+    font-size:12px;
+    line-height:34px;
+}
+.message-box-title > p {
+    float:left;
+    color:#FFFFFF;
+    font-family:roboto;
+    font-size:14px;
+    line-height:34px;
+    margin-bottom:0;
+    font-weight:700;
+    padding-left: 20px;
+    font-family:'Calibri','Cambria',serif;
+}
+.message-box-title > i {
+    color:#FFFFFF;
+    float:right;
+    font-weight:bold;
+    line-height:34px;
+    margin-right:10px;
+}
+
+
+.message-form {
+    display:none;
+    float:left;
+    padding:33px;
+    border-left:2px solid;
+    border-right:2px solid;
+    background:none repeat scroll 0 0 #FFFFFF;
+    border-color: #4fc0aa;
+}
+.message-form > p {
+    color:#A7A6A6;
+    font-family:roboto;
+    font-size:14px;
+    margin-bottom:20px;
+}
+.message-form form input.form-control,
+.message-form form input.form-control:focus {
+    background:none repeat scroll 0 0 #F6F6F6;
+    border:0 none;
+    color:#A5A5A5;
+    font-family:open sans;
+    font-size:11px;
+    font-weight:bold;
+    margin-bottom:12px;
+    text-transform:uppercase;
+
+    -webkit-box-shadow:1px 1px 2px #B3B3B3 inset;
+    -moz-box-shadow:1px 1px 2px #B3B3B3 inset;
+    -ms-box-shadow:1px 1px 2px #B3B3B3 inset;
+    -o-box-shadow:1px 1px 2px #B3B3B3 inset;
+    box-shadow:1px 1px 2px #B3B3B3 inset;
+}
+.message-form form textarea.form-control,
+.message-form form textarea.form-control:focus {
+    background:none repeat scroll 0 0 #F6F6F6;
+    border:0 none;
+    color:#A5A5A5;
+    font-family:open sans;
+    font-size:11px;
+    font-weight:bold;
+    margin-bottom:12px;
+    text-transform:uppercase;
+
+    -webkit-box-shadow:1px 1px 2px #B3B3B3 inset;
+    -moz-box-shadow:1px 1px 2px #B3B3B3 inset;
+    -ms-box-shadow:1px 1px 2px #B3B3B3 inset;
+    -o-box-shadow:1px 1px 2px #B3B3B3 inset;
+    box-shadow:1px 1px 2px #B3B3B3 inset;
+}
+.submit-btn {
+    padding:5px 30px;
+    border:0 none;
+    color:#FFFFFF;
+    float:right;
+    font-family:open sans;
+    font-size:11px;
+    font-weight:600;
+    line-height:10px;
+    text-transform:uppercase;
+    background-color:#2fc0fa;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius:3px;
+}
+.message-box-title.opened {
+    width:100%;
+}
+
