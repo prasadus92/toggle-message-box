@@ -5,5 +5,9 @@ A toggle sidebar for submitting messages online. Typically needed by all website
 
 How to use:
 
-Its easy and simple. Just cop
+Its easy and simple. Just copy the code within <body> of index.html to your HTML page just before end of body tag.
+
+Copy all JavaScript and CSS files to your respective directories.
+
+You are done!! Create a PHP file for form submission.
 
