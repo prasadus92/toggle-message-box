@@ -1,4 +1,4 @@
-Toggle-Message-Box
+Toggle Message Box
 ==================
 
 A toggle sidebar for submitting messages or comments online. Typically needed by all websites. Its very annoying and waste to create a separate page for "Leave a Message". This toggle bar is easy to use and has an improved GUI.
